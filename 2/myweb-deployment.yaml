@@ -16,7 +16,7 @@ spec:                      # 3가지 필수 구성요서중 하나 specification
     spec:
       containers:
       - name: myweb            # 컨테이너 1개를 생성, .spec.template.spec.containers[0].name 필드를 사용해서 myweb 라는 이름을 붙인다.
-        image: public.ecr.aws/q3b4u2r0/myweb:1.0
+        image: public.ecr.aws/a0m6d5q7/myweb:1.0
         ports:
         - containerPort: 80
 ---
